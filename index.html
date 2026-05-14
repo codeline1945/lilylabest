@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lily</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="sky" aria-hidden="true"></canvas>
+
+  <main class="poem-shell">
+    <section class="poem-panel" aria-labelledby="poem-title">
+      <p class="dedication">Pour celle qui rend les jours plus doux</p>
+      <h1 id="poem-title">Lily</h1>
+
+      <div class="poem" aria-label="Poésie pour Lily">
+        <p>Dans ton sourire, le monde devient plus doux,</p>
+        <p>comme si le soleil avait appris la tendresse.</p>
+        <p>Ta voix glisse sur moi comme une nuit sans fin,</p>
+        <p>celle où l'on n'a rien fait d'autre que rester ensemble,</p>
+        <p>juste nos souffles mêlés à travers l'écran,</p>
+        <p>et pourtant plus proches que jamais.</p>
+        <p>J'aime ta douceur qui n'a pas peur d'être vraie,</p>
+        <p>ta façon de penser qui ressemble à la mienne,</p>
+        <p>comme deux âmes qui se seraient reconnues</p>
+        <p>avant même de se croiser.</p>
+        <p>Lily, tu n'es pas juste celle que j'aime,</p>
+        <p>tu es celle avec qui je me sens enfin complet.</p>
+      </div>
+
+      <button class="music-button" id="musicButton" type="button" aria-pressed="false">
+        <span class="music-icon" aria-hidden="true"></span>
+        <span id="musicLabel">Lancer la musique</span>
+      </button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
